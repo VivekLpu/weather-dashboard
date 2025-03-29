@@ -42,11 +42,13 @@ App will be available at http://localhost:5173/
 ### API Integration Details
 Current Weather API:
 https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric
+
 Data Provided: City name, temperature, humidity, wind speed, weather conditions
 Rate Limits: Free tier allows 60 requests per minute
 
 ### 5-Day Forecast API
 https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={API_KEY}&units=metric
+
 Data Provided: Forecast every 3 hours for the next 5 days
 
 
